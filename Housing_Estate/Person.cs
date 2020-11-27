@@ -20,7 +20,7 @@ namespace Housing_Estate
 
         public override string ToString()
         {
-            return ($"MENO: {Name}\nPRIEZVISKO: {SurName}\nVEK: {Age}");
+            return ($"MENO : {Name}\nPRIEZVISKO : {SurName}\nVEK : {Age}");
         }
     }
 }
