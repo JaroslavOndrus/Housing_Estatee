@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Housing_Estate
 {
@@ -8,6 +9,9 @@ namespace Housing_Estate
         {
             Person person = new Person("Jaro", "Ondruš", 4);
             Console.WriteLine(person.ToString());
+
+            Flat flat = new Flat(14, 58.6, 5, new List<Person>() {person});
+            Console.WriteLine(flat.ToString());
         }
     }
 }
