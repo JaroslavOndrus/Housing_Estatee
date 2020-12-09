@@ -9,14 +9,15 @@ namespace Housing_Estate
         public string Name { get; set; }
         public string SurName { get; set; }
         public int Age { get; set; }
+        public List<Flat> Flats { get; set; }
 
         public Person(string name, string surName, int age)
         {
             Name = name;
             SurName = surName;
             Age = age;
-
         }
+
 
         public override string ToString()
         {
